@@ -1,0 +1,154 @@
+@media screen and (max-width:768px) {
+
+    body {
+        overflow-x: hidden;
+    }
+
+    .flex_third_phase{
+        flex-direction: column;
+        justify-content: center;
+        margin: auto;
+        width: 100%;
+    }
+
+    .flex_third_phase div{ 
+        align-self: center;
+        margin-bottom: 20px;
+    }
+    
+    .fourth_phase div svg{ 
+        width: 350px
+    }
+
+    .one_fourth_phase { 
+        width: 600px
+    }
+    .fourth_phase {
+
+        height: 500px;
+
+    }
+    .fourth_phase div{
+        width: 120px;
+
+    }
+
+
+
+    .fifth_phase {
+        height:700px;
+    }
+    .fifth_phase .one_fifth_phase img {
+        margin: 5px;
+        width: 200px;
+        height: 200px;
+    }
+
+
+
+
+
+
+    .sixth_phase {
+        height: 1200px;
+        width: 75%;
+        background-color: #e5ebf3;
+        margin: auto;
+        text-align: center;
+    }
+    
+    .one_flex_sixth_phase {
+        flex-direction: column;
+    }
+    .one_flex_sixth_phase {
+        display: flex;
+        width: 100%;
+        height: 600px;
+    } 
+    .one_one_flex_sixth_phase,
+    .two_one_flex_sixth_phase,
+    .two_two_flex_sixth_phase,
+    .one_two_flex_sixth_phase {
+        width: 100%;
+        height: 400px;
+    }
+
+    .one_seventh_phase {
+        height: 400px;
+        justify-content: space-around;
+        align-items: center;
+        /* background-color: rgb(255, 0, 0, 0.6); */
+    }
+
+
+
+    
+    .one_seventh_phase div {
+
+        font-size: 49px;
+        margin: 0px;
+        padding: 10px;
+        
+    }
+    .one_seventh_phase div h2{
+
+        font-size: 14px;
+        font-weight: 100;
+        
+    }
+
+
+    .one_seventh_phase div div:nth-of-type(3) h2{
+
+        font-size: 28px;
+        
+    }
+
+    .one_seventh_phase div i{
+
+        color: rgb(255, 0, 0, 0.6);
+        font-size: 49px;
+
+    }
+
+    .eight_phase div {
+        width: 80%;
+    }
+
+    .eight_phase {
+        margin-bottom: 50px;
+    }
+
+
+
+
+    .footer_one {
+        margin: 5px 15px 5px 15px;
+        justify-content: space-around;
+        width: 100%;
+    }
+    /* .footer_one div{
+        width: 100%;
+    } */
+    .footer_one div h5{
+        font-size: 16px;
+    }
+    .footer_one div input{
+        margin: 5px;
+        padding: 5px 25px;
+    }
+    .footer_one div:nth-of-type(2) a{
+        text-align: right;
+        display: block;
+    }
+    .s_footer_three,
+    .t_footer_three {
+        /* width: 100%; */
+        margin-bottom: 100px;
+
+    }
+    .footer_three div:nth-of-type(2) {
+        width: 100px;
+    }
+}
+

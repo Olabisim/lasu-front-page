@@ -2,6 +2,11 @@ video {
 width: 100%;
 }
 
+
+.first_div_region svg{
+    width: 30%;
+}
+
 .third_phase {
 
     text-align: center;
@@ -119,7 +124,7 @@ width: 100%;
 
 
 .fourth_phase {
-    background:url('/svg/undraw_Around_the_world_re_n353.svg');
+    background:url('/svg/undraw_omega_4kob.svg');
     background-attachment: fixed;
     background-repeat: 5;
     height: 400px;
@@ -173,7 +178,7 @@ width: 100%;
 
 
 .fifth_phase {
-    background:url('/svg/undraw_Around_the_world_re_n353.svg');
+    /* background:url('/svg/undraw_Around_the_world_re_n353.svg'); */
     background-attachment: fixed;
     height: 400px;
     display: flex;
@@ -444,7 +449,8 @@ i
 
 
 footer {
-    background: rgb(230, 230, 250, 0.5);
+    /* background: rgb(230, 230, 250, 0.5); */
+    border-top: 3px solid #07294d;
     margin: 10px;
     padding: 10px;
     overflow: hidden;
@@ -470,7 +476,8 @@ footer div {
 .footer_one div input{
     margin: 10px;
     padding: 10px 50px;
-    border: none;
+    border: 1px solid #2d3e50;
+    border-radius: 4px;
 }
 .footer_one div a,
 .footer_two a{

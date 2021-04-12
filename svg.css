@@ -1,4 +1,144 @@
+svg #enter_shadows  {
+        
+        /* animation: breeze 5s linear infinite alternate-reverse; */
+        transform-origin: bottom;
+        transform-box: fill-box;
+}
+@keyframes breeze {
+        0% {
+                transform: scaleX(0)
+        }
+        25%{
+                transform: scale(2, 0.5);
+        
+        }
+        50% {
+                transform: scaleX(0)
+        }
+        75%{
+                transform: scale(2, 0.5);
+        
+        }
+        100% {
+                transform: scaleX(0)
+        }
+        
+}
 
+
+svg #enter_circle {
+       
+        animation: circle 5s linear infinite alternate-reverse;
+        transform-origin: bottom;
+        transform-box: fill-box;
+}
+@keyframes circle {
+        0% {
+                transform: translate(0)
+        }
+        25%{
+                transform: translate(40px, 40px)
+        
+        }
+        50% {
+                transform: translate(80px, 60px)
+        }
+        75%{
+                transform: translate(-60px, 40px)
+        
+        }
+        100% {
+                transform: translate(0)
+        }
+        
+}
+
+
+#pointing-arrow-arrow {
+animation: arrow 5s linear infinite alternate-reverse;
+transform-origin: bottom;
+transform-box: fill-box;
+}
+@keyframes arrow {
+        0% {
+                transform: translate(0)
+        }
+        20%{
+                transform: translate(-60px, 60px)
+
+        }
+        40% {
+                transform: translate(0)
+        }
+        60%{
+                transform: translate(-60px, 60px)
+
+        }
+        80% {
+                transform: translate(0)
+        }
+        100%{
+                transform: translate(-60px, 60px)
+
+        }
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* 
 svg {
         width: 40%;
 }
@@ -150,4 +290,4 @@ to{
         animation: viruss 5s ease-in-out infinite;
         transform-origin: center;
         transform-box: fill-box;
-}
+} */

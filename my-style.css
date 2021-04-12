@@ -124,7 +124,7 @@ width: 100%;
 
 
 .fourth_phase {
-    background:url('/svg/undraw_omega_4kob.svg');
+    background: linear-gradient(to bottom, rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.5)),url('/svg/undraw_omega_4kob.svg');
     background-attachment: fixed;
     background-repeat: 5;
     height: 400px;
